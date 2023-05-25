@@ -1,0 +1,84 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Fuente de texto para el cuerpo del documento */
+    background-color: #f5f5f5; /* Color de fondo */
+  }
+  
+  h1 {
+    background-color: #ffffff; /* Color de fondo para el título h1 */
+  color: #005677; /* Color del texto del título h1 */
+  font-size: 35px; /* Tamaño de fuente del título h1 */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color:#ffffff;
+    text-decoration: underline;
+
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: lightgray;
+    padding: 20px;
+    /* Estilos adicionales del encabezado */
+    background-color: #041638; /* Color de fondo del encabezado */
+    background-repeat: no-repeat; /* No repetir la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen de fondo para cubrir todo el encabezado */
+    text-align: center; /* Centrar el contenido del encabezado */
+  }
+  
+  /* Estilos del contenido principal */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    /* Estilos adicionales de las secciones */
+    background-color: #C4C4C4; /* Color de fondo para las secciones */
+    color: #005677; /* Color del texto de las secciones */
+  }
+  
+  h2 {
+    color: darkblue;
+    /* Estilos adicionales de los títulos de sección */
+    background-color: #C4C4C4; /* Color de fondo para los títulos de sección */
+    color: #005677; /* Color del texto de los títulos de sección */
+  }
+  
+  p {
+    line-height: 1.5;
+    /* Estilos adicionales de los párrafos */
+    text-indent: 80px; /* Sangría de 80px para los párrafos */
+    font-size: 120%;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #005677; /* Color de fondo para el pie de página */
+    color: #FFFFFF; /* Color del texto del pie de página */
+    position: absolute; /* Posición absoluta para fijar el pie de página en la parte inferior */
+    bottom: 0; /* Colocar el pie de página en la parte inferior del contenedor */
+    width: 100%; /* Ancho del pie de página */
+    height: 2.5rem; /* Altura del pie de página */
+    text-align: center; /* Centrar el contenido del pie de página */
+    line-height: 2.5rem; /* Altura de línea para alinear verticalmente el contenido del pie de página */
+  }
+
+  i {
+    color: white; /* Color del ícono */
+    font-size: 25px; /* Tamaño de fuente del ícono */
+    margin-right: 1em; /* Margen derecho del ícono */
+  }
+  

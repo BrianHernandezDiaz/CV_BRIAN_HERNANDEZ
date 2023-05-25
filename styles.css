@@ -1,47 +1,62 @@
-body{
-  font-family: 'Times New Roman', Times, serif;
-}
-header{
-  background-color: #E6E6E6;
-  text-align: center;
+body {
+  font-family: 'Times New Roman', Times, serif; /* Fuente de texto para el cuerpo del documento */
+  background-color: #f5f5f5; /* Color de fondo */
 }
 
-#logo{
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  display: block;
+header {
+  background-color: #041638; /* Color de fondo del encabezado */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-size: cover; /* Ajustar la imagen de fondo para cubrir todo el encabezado */
+  text-align: center; /* Centrar el contenido del encabezado */
 }
 
-h1{
-  background-color: #C4C4C4;
-  color: #005677;
-  font-size: 35px;
+#logo {
+  align-items: center; /* Centrar verticalmente los elementos dentro de #logo */
+  width: 200px; /* Ancho del logotipo */
+  height: 200px; /* Altura del logotipo */
+  margin: 0 auto; /* Centrar horizontalmente #logo */
+  display: block; /* Mostrar #logo como un bloque */
+}
+
+h1 {
+  background-color: #ffffff; /* Color de fondo para el título h1 */
+  color: #005677; /* Color del texto del título h1 */
+  font-size: 35px; /* Tamaño de fuente del título h1 */
 }
 
 .tituloSeccion {
-  background-color: #C4C4C4;
-  color: #005677;
+  background-color: #C4C4C4; /* Color de fondo para los títulos de sección */
+  color: #005677; /* Color del texto de los títulos de sección */
 }
 
-ul li span{
-  font-weight: bold;
+ul li span {
+  font-weight: bold; /* Hacer que el texto dentro de un span dentro de un li tenga negrita */
 }
 
-.personales{
-  font-style: italic;
+.personales {
+  font-style: italic; /* Estilo de fuente cursiva para los elementos con la clase .personales */
 }
 
-.description{
-  text-indent: 80px;
+.description {
+  text-indent: 80px; /* Sangría de 80px para los párrafos con la clase .description */
 }
-footer{
-  background-color: #005677;
-  color: #FFFFFF;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-  text-align: center;
-  line-height: 2.5rem;
+
+footer {
+  background-color: #005677; /* Color de fondo para el pie de página */
+  color: #FFFFFF; /* Color del texto del pie de página */
+  position: absolute; /* Posición absoluta para fijar el pie de página en la parte inferior */
+  bottom: 0; /* Colocar el pie de página en la parte inferior del contenedor */
+  width: 100%; /* Ancho del pie de página */
+  height: 2.5rem; /* Altura del pie de página */
+  text-align: center; /* Centrar el contenido del pie de página */
+  line-height: 2.5rem; /* Altura de línea para alinear verticalmente el contenido del pie de página */
 }
+
+i {
+  color: white; /* Color del ícono */
+  font-size: 25px; /* Tamaño de fuente del ícono */
+  margin-right: 1em; /* Margen derecho del ícono */
+}
+
+
+
